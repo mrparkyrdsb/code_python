@@ -1,5 +1,13 @@
 # IB Computer Science Collection Tools
 
+# Functions
+def mod(numerator, denominator):
+    return numerator % denominator
+
+def div(numerator, denominator):
+    return numerator // denominator
+
+# Classes
 class Arrays:
     def __init__(self, d_type, size):
         self.__data = [None for _ in range(size)]
